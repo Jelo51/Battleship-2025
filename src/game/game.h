@@ -5,9 +5,6 @@
 #include <stdbio.h>
 #include <stdint.h>
 
-
-
-
 typedef struct Position {
     int x;
     int y;
