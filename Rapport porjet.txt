@@ -1,6 +1,6 @@
 # Rapport Technique Détaillé - Battleship-2025
 
-## 🏗️ Vue d'ensemble de l'architecture
+## Vue d'ensemble de l'architecture
 
 Le projet Battleship-2025 suit une **architecture modulaire en couches** qui sépare clairement les responsabilités :
 
@@ -18,7 +18,7 @@ Cette organisation respecte le principe de **séparation des préoccupations** e
 
 ---
 
-## 📂 Analyse détaillée de chaque fichier
+## Analyse détaillée de chaque fichier
 
 ### 1. **main.c** - Le chef d'orchestre (30 lignes)
 
@@ -185,7 +185,7 @@ int attack(Board *board, Position pos, int *miss_counter) {
 
 ---
 
-## 🎯 Justifications des choix de gameplay
+## Justifications des choix de gameplay
 
 ### 1. **Pourquoi masquer les navires après placement ?**
 
@@ -347,7 +347,7 @@ Phase 3 : Intégration et validation (1 semaine)
 
 ---
 
-## 🚀 Extensions possibles
+## Extensions possibles
 
 L'architecture modulaire permet facilement d'ajouter :
 
@@ -376,7 +376,7 @@ void play_against_ai(Board *player, Board *ai);
 
 ---
 
-## 📊 Métriques de qualité du code
+##Métriques de qualité du code
 
 ### **Lisibilité**
 - **Noms explicites** : `can_place_ship()` vs `check()`
